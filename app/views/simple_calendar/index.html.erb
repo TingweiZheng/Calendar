@@ -1,0 +1,12 @@
+
+<% date_begin = 1 %>
+<%= month_calendar do |date| %>
+    <% day=(date.to_s.delete'-').to_i%100 %>
+    <% if day == date_begin%>
+        <%= day %>
+        <% date_begin = date_begin+1%>
+    <%else%>
+
+    <%end%>
+
+<% end %>
