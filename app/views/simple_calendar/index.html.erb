@@ -6,11 +6,7 @@
         <%= day %>
         <% @invents.each do |invent| %>
             <% if invent.date == date%>
-<<<<<<< HEAD
                <br><%= link_to invent.title ,"#{invent.link}" %>
-=======
-               <%= link_to invent.title ,"https://github.com/#{invent.name}zheng" %>
->>>>>>> 22f8c4ffc55da71574bc03ee29fb5f5032df17b9
             <% end %>
         <%end%>
         <% date_begin = date_begin+1%>
