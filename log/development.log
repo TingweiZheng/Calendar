@@ -13913,6 +13913,7 @@ ActionController::RoutingError (No route matches [GET] "/stylesheets/simple_cale
   Rendered /var/lib/gems/2.1.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.1ms)
   Rendered /var/lib/gems/2.1.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.2ms)
   Rendered /var/lib/gems/2.1.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (14.6ms)
+<<<<<<< HEAD
 
 
 Started GET "/" for 127.0.0.1 at 2016-01-06 11:52:37 +0800
@@ -16204,3 +16205,5 @@ ActionController::RoutingError (No route matches [GET] "/stylesheets/simple_cale
   Rendered /var/lib/gems/2.1.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.1ms)
   Rendered /var/lib/gems/2.1.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.2ms)
   Rendered /var/lib/gems/2.1.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (14.4ms)
+=======
+>>>>>>> 22f8c4ffc55da71574bc03ee29fb5f5032df17b9

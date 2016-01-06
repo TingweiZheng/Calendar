@@ -11,7 +11,11 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
+<<<<<<< HEAD
 ActiveRecord::Schema.define(version: 20160106035132) do
+=======
+ActiveRecord::Schema.define(version: 20160105035527) do
+>>>>>>> 22f8c4ffc55da71574bc03ee29fb5f5032df17b9
 
   create_table "invents", force: :cascade do |t|
     t.string   "name"
@@ -19,7 +23,10 @@ ActiveRecord::Schema.define(version: 20160106035132) do
     t.date     "date"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+<<<<<<< HEAD
     t.string   "link"
+=======
+>>>>>>> 22f8c4ffc55da71574bc03ee29fb5f5032df17b9
   end
 
 end

@@ -69,6 +69,10 @@ class InventsController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def invent_params
+<<<<<<< HEAD
       params.require(:invent).permit(:name, :title, :date,:link)
+=======
+      params.require(:invent).permit(:name, :title, :date)
+>>>>>>> 22f8c4ffc55da71574bc03ee29fb5f5032df17b9
     end
 end
